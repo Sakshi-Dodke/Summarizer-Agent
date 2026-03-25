@@ -21,12 +21,16 @@ cd Summarizer-Agent
 ```
 
 ### 2. Set up Python environment
+
 ```bash
 python -m venv venv
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
+```
 
 **If requirements.txt is missing, install manually:**
+
+```bash
 pip install flask requests opencv-python Pillow werkzeug nltk pandas
 ```
 
