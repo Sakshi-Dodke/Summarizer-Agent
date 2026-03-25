@@ -19,7 +19,8 @@ A multimodal text summarization system powered by Monte Carlo Tree Search (MCTS)
 git clone https://github.com/Sakshi-Dodke/Summarizer-Agent.git
 cd Summarizer-Agent
 
- ### 2. Set up Python environment
+### 2. Set up Python environment
+
  python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate    # Linux/Mac
