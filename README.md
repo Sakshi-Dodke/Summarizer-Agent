@@ -19,7 +19,7 @@ A multimodal text summarization system powered by Monte Carlo Tree Search (MCTS)
 git clone https://github.com/Sakshi-Dodke/Summarizer-Agent.git
 cd Summarizer-Agent
 
-### 2. Set up Python environment
+2. Set up Python environment
 
  python -m venv venv
 venv\Scripts\activate        # Windows
@@ -29,9 +29,11 @@ pip install -r requirements.txt
 If requirements.txt is missing, install manually:
 pip install flask requests opencv-python Pillow werkzeug nltk pandas
 
-### 3. Pull required Ollama models
+ 3. Pull required Ollama models
+
 ollama pull llama3.2:latest
 ollama pull llava:7b
 
-### 4. Start the backend server
+ 4. Start the backend server
+
 python app.py
